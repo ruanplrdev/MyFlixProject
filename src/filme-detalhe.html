@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Filme</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-900 text-white">
+
+    <!-- Header -->
+    <header class="bg-gray-800 text-white p-5">
+        <div class="flex justify-between items-center">
+            <a href="/" class="text-3xl font-bold">MovieCatalog</a>
+            <div class="flex space-x-6 items-center">
+                <a href="#" class="hover:text-gray-400">Filmes</a>
+                <a href="#" class="hover:text-gray-400">Séries</a>
+                <a href="#" class="hover:text-gray-400">Perfil</a>
+                <a href="#" class="hover:text-gray-400">Configurações</a>
+                <input type="text" placeholder="Pesquisar filmes..." class="p-2 rounded bg-gray-700 text-white">
+            </div>
+        </div>
+    </header>
+
+    <!-- Detalhes do Filme -->
+    <section class="bg-gray-800 text-white px-4 relative">
+        <!-- Imagem do Filme -->
+        <div class="mx-auto  h-72 object-cover overflow-hidden">
+            <img src="imagens/oppenheimer-banner.png" alt="Oppenheimer" class="w-full h-auto rounded-lg shadow-lg">
+        </div>
+        <div class="max-w-screen-xl mx-auto flex items-center justify-between space-x-12 ">
+            <!-- Detalhes do Filme -->
+            <div class="w-full">
+                <h2 class="text-4xl font-bold mb-4">Oppenheimer</h2>
+                <p class="text-lg mb-4">Oppenheimer é um filme histórico de drama dirigido por Christopher Nolan,
+                    baseado no livro biográfico vencedor do Prêmio Pulitzer. Ele narra a vida de J. Robert Oppenheimer,
+                    o físico teórico que ajudou a criar a bomba atômica.</p>
+
+                <div class="flex items-center space-x-6 mb-4">
+                    <span class="text-yellow-500 font-semibold">Ano: 2023</span>
+                    <span class="text-yellow-500 font-semibold">Duração: 2h 30m</span>
+                    <span class="text-yellow-500 font-semibold">Gênero: Drama, História</span>
+                </div>
+
+                <h3 class="text-2xl font-semibold mb-2">Sinopse:</h3>
+                <p class="text-lg mb-6">Com a Segunda Guerra Mundial como pano de fundo, Oppenheimer lida com dilemas
+                    morais, escolhas pessoais e profissionais enquanto ele se vê à frente da criação de uma arma de
+                    destruição em massa.</p>
+
+                <a href="#"
+                    class="bg-yellow-500 text-black py-2 px-6 rounded-lg hover:bg-yellow-400 transition">Assistir
+                    Agora</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6 mt-16">
+        <div class="max-w-screen-xl mx-auto text-center">
+            <p>&copy; 2024 MovieCatalog. Todos os direitos reservados.</p>
+            <div class="flex justify-center space-x-6 mt-4">
+                <a href="#" class="hover:text-gray-400">Sobre</a>
+                <a href="#" class="hover:text-gray-400">Política de Privacidade</a>
+                <a href="#" class="hover:text-gray-400">Contato</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
